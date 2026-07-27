@@ -18,3 +18,5 @@ Most notably:
 - [game-of-life](https://git.csd4ni3l.hu/csd4ni3l/game-of-life) which is Game of Life written in Python, running inside blazingly fast compute shaders.
 
 I've also made a [soundboard](https://git.csd4ni3l.hu/csd4ni3l/soundboard) in Rust and I'm always trying to make new stuff!
+
+If you care about my NixOS configuration, and want to make something similar or something based off of it (though it is pretty hardcoded/opinionated), feel free to do so [here](https://git.csd4ni3l.hu/csd4ni3l/nixos-config).
