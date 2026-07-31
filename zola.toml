@@ -4,7 +4,7 @@ theme = "terminus"
 
 # The site title and description; used in feeds by default.
 title = "csd4ni3l"
-description = "A portfolio ig"
+description = "csd4ni3l's personal site or whatever"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -28,7 +28,6 @@ taxonomies = [
     { name = "tags", feed = true },
     { name = "categories", feed = true, paginate_by = 5 },
 ]
-
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
@@ -80,15 +79,8 @@ main_menu = [
 socials = [
     { name = "email", url = "mailto:csd4ni3l_contact.ladle014@passmail.com" },
     { name = "forgejo", url = "https://git.csd4ni3l.hu/csd4ni3l" },
-]
-
-[extra.content_security_policy]
-enable = true
-allowed_domains = [
-    { directive = "base-uri", domains = ["'self'"] },
-    { directive = "connect-src", domains = ["'self'", "cloudflareinsights.com"] },
-    { directive = "form-action", domains = ["'self'"] },
-    { directive = "script-src", domains = ["'self'", "static.cloudflareinsights.com", "'sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg=='"] },
+    { name = "codeberg", url = "https://codeberg.org/csd4ni3l"  },
+    { name = "github", url = "https://github.com/csd4ni3l"  }
 ]
 
 [extra.responsive_images]
